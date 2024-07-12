@@ -1,0 +1,10 @@
+-> for computer choice
+
+GET random number between 0 and 100
+IF random number bigger than 66 THEN
+    choice is "Rock"
+ELSE IF random nummber bigger than 33 and smaller or equal 66 THEN
+    choice is "Paper"
+ELSE
+    choice is "Scissors"
+
