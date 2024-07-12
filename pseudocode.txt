@@ -29,3 +29,15 @@ OR human choice is scissors AND computer choice is paper THEN
     return win statement
 ELSE
     return lose statement
+
+-> for game
+
+SET human score to 0
+SET computer score to 0
+CALL play round function 5 times
+IF player score equal to computer score THEN
+    return tie statement
+ELSE IF player score greater than computer score THEN
+    return win statement
+ELSE
+    return lose statement
