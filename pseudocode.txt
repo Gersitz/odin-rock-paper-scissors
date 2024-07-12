@@ -18,3 +18,14 @@ WHILE choice not valid
         repeat prompt
     ENDIF
 ENDWHILE
+
+-> for playable round
+
+IF human choice AND computer choice are equal THEN
+    return tie statement
+ELSE IF human choice is rock AND computer choice is scissors
+OR human choice is paper AND computer choice is rock
+OR human choice is scissors AND computer choice is paper THEN
+    return win statement
+ELSE
+    return lose statement
