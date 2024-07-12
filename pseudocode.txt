@@ -8,3 +8,13 @@ ELSE IF random nummber bigger than 33 and smaller or equal 66 THEN
 ELSE
     choice is "Scissors"
 
+-> for human choice
+
+GET player input
+WHILE choice not valid
+    IF input is "rock" OR "paper" OR "scissors" THEN
+        return choice
+    ELSE
+        repeat prompt
+    ENDIF
+ENDWHILE
